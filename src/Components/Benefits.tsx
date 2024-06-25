@@ -72,7 +72,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                     ))}
                 </motion.div>
                 {/* Graphic and description */}
-                <div className="flex mt-16 items-center justify-between gap-20 md:mt-28">
+                <div className="grid grid-cols-1 mt-16 items-center justify-between gap-20 md:mt-28 md:grid-cols-2">
                     <img src={Bgraphic} alt="Benefits Graphic" className="mx-auto" />
                     <div>
                         <div className="relative">
